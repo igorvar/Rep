@@ -1,4 +1,3 @@
-# Rep
 # SrfInfo
 
 **SrfInfo** is a Windows console utility that displays metadata of a **Siebel CRM repository file** (`.srf`).  
@@ -66,3 +65,5 @@ This project uses [OpenMCDF](https://github.com/ironfede/openmcdf) to work with 
 ## Acknowledgements:
 + ironfede/openmcdf for the great library to handle the CFBF format.
 + **Kirill Frolov** — for the article Quick GenBScript By fkirill, which inspired research of SRF and browser scripts.
+
+**The file SrfInfo.zip.b64.txt contains a base64 encoded zip archive of the project in case downloading is prohibited**
