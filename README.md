@@ -2,19 +2,19 @@
 
 **SrfInfo** is a Windows console utility that displays metadata of a **Siebel CRM repository file** (`.srf`).  
 
-The tool allows you to quickly check when, where, and by whom an SRF file was compiled, and whether it was a full or partial compilation.  
+The tool allows you to quickly check when, where, and by whom an SRF file was compiled, and whether it was a full or incremental compilation.  
 
 ---
 
 ## Features
 
-- Detects whether the repository is the result of a **full** or **partial** compilation (`IsFullCompile`).  
+- Detects whether the repository is the result of a **full** or **incremental** compilation (`IsFullCompile`).  
 - Displays compilation date (`CompilationDate`).  
 - Shows the user who performed the compilation (`CompiledBy`).  
 - Shows the computer name where the compilation was executed (`MachineName`).  
 - Displays the repository language in Siebel format (three-letter code, e.g., `ENU`) (`Language`).  
 - Shows the name of the browser scripts folder (`BsFolder`).  
-- For partial compilations (`IsFullCompile = False`), additional information about the corresponding full compilation is displayed.  
+- For incremental compilations (`IsFullCompile = False`), additional information about the corresponding full compilation is displayed.  
 
 ---
 
